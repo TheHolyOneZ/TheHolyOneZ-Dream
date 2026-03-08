@@ -4,9 +4,70 @@
 
 ---
 
-## Preview
+## Gallery
 
-![TheHolyOneZ-Dream Theme Preview](preview/preview.png)
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="preview/overview.png" width="100%" alt="Overview"/>
+      <br/>
+      <sub><b>Overview</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="preview/chat.png" width="100%" alt="Chat"/>
+      <br/>
+      <sub><b>Chat</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="preview/sidebar.png" width="100%" alt="Sidebar"/>
+      <br/>
+      <sub><b>Sidebar &amp; Channels</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="preview/settings.png" width="100%" alt="Settings"/>
+      <br/>
+      <sub><b>Settings</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%">
+      <img src="preview/context-menu.png" width="100%" alt="Context Menu"/>
+      <br/>
+      <sub><b>Context Menu</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="preview/code-block.png" width="100%" alt="Code Blocks"/>
+      <br/>
+      <sub><b>Code Blocks</b></sub>
+    </td>
+  </tr>
+</table>
+
+<details>
+  <summary><b>More screenshots</b></summary>
+  <br/>
+  <table>
+    <tr>
+      <td align="center" width="33%">
+        <img src="preview/profile.png" width="100%" alt="Profile Popout"/>
+        <br/>
+        <sub><b>Profile Popout</b></sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="preview/voice.png" width="100%" alt="Voice Channel"/>
+        <br/>
+        <sub><b>Voice Channel</b></sub>
+      </td>
+      <td align="center" width="33%">
+        <img src="preview/emoji.png" width="100%" alt="Emoji Picker"/>
+        <br/>
+        <sub><b>Emoji Picker</b></sub>
+      </td>
+    </tr>
+  </table>
+</details>
 
 ---
 
