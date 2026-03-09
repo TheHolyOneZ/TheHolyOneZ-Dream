@@ -9,6 +9,28 @@
 <table>
   <tr>
     <td align="center" width="50%">
+      <img src="preview/overview-effect-on.png" width="100%" alt="With circuit trace effect"/>
+      <br/>
+      <sub><b>✦ With background effect</b></sub>
+    </td>
+    <td align="center" width="50%">
+      <img src="preview/overview-effect-off.png" width="100%" alt="Without circuit trace effect"/>
+      <br/>
+      <sub><b>Without background effect</b></sub>
+    </td>
+  </tr>
+  <tr>
+    <td align="center" colspan="2">
+      <sup>Toggle by setting <code>--cx-bg-effect: block</code> or <code>none</code> at the top of the theme file</sup>
+    </td>
+  </tr>
+</table>
+
+<br/>
+
+<table>
+  <tr>
+    <td align="center" width="50%">
       <img src="preview/overview.png" width="100%" alt="Overview"/>
       <br/>
       <sub><b>Overview</b></sub>
@@ -83,8 +105,8 @@ Deep navy backgrounds. JetBrains Mono everywhere. A barely-visible cyan mesh gri
 ## Features
 
 - **JetBrains Mono** — monospace font across the entire UI
-- **Cyan mesh grid** — subtle two-layer graph-paper background (48px + 24px)
-- **Drifting aurora** — two slow-moving radial blobs (blue + teal), GPU-composited
+- **Circuit trace effect** — PCB-style right-angle paths with racing glow streaks and endpoint flashes (toggleable)
+- **Drifting aurora** — two slow-moving radial blobs (blue + teal) in the base background
 - **Full brand recolor** — Discord's blurple replaced with `#4ec9b0` (VSCode teal) throughout
 - **Smooth micro-animations** — channels, server icons, buttons, reactions, badges, switches
 - **Zero lag** — no `backdrop-filter` on structural panels, only Discord CSS variables for backgrounds
