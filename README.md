@@ -141,7 +141,7 @@ Deep navy backgrounds. JetBrains Mono everywhere. A barely-visible cyan mesh gri
 No download needed — paste this directly into **Settings → Vencord → Themes → Online Themes**:
 
 ```
-https://github.com/TheHolyOneZ/TheHolyOneZ-Dream/blob/main/TheHolyOneZ-Dream.theme.css
+https://raw.githubusercontent.com/TheHolyOneZ/TheHolyOneZ-Dream/main/TheHolyOneZ-Dream.theme.css
 ```
 
 ---
