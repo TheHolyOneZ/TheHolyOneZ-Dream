@@ -9,7 +9,7 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="preview/overview-effect-on.png" width="100%" alt="With circuit trace effect"/>
+      <img src="preview/overview-effect-on.gif" width="100%" alt="With circuit trace effect"/>
       <br/>
       <sub><b>✦ With background effect</b></sub>
     </td>
@@ -31,7 +31,7 @@
 <table>
   <tr>
     <td align="center" width="50%">
-      <img src="preview/overview.png" width="100%" alt="Overview"/>
+      <img src="preview/overview.gif" width="100%" alt="Overview"/>
       <br/>
       <sub><b>Overview</b></sub>
     </td>
