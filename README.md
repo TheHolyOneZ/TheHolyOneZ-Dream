@@ -21,7 +21,7 @@
   </tr>
   <tr>
     <td align="center" colspan="2">
-      <sup>Toggle by setting <code>--cx-bg-effect: block</code> or <code>none</code> at the top of the theme file</sup>
+      <sup>Toggle by setting <code>--cx-bg-effect: 1</code> (on) or <code>0</code> (off) at the top of the theme file</sup>
     </td>
   </tr>
 </table>
@@ -119,12 +119,30 @@ Deep navy backgrounds. JetBrains Mono everywhere. A barely-visible cyan mesh gri
 ### BetterDiscord
 
 1. Download [`TheHolyOneZ-Dream.theme.css`](./TheHolyOneZ-Dream.theme.css)
-2. Move it to your BetterDiscord themes folder:
+2. Move it to your themes folder:
    - **Windows:** `%appdata%\BetterDiscord\themes\`
    - **macOS:** `~/Library/Application Support/BetterDiscord/themes/`
    - **Linux:** `~/.config/BetterDiscord/themes/`
 3. Open Discord → **Settings → BetterDiscord → Themes**
 4. Enable **TheHolyOneZ-Dream**
+
+### Vencord
+
+1. Download [`TheHolyOneZ-Dream.theme.css`](./TheHolyOneZ-Dream.theme.css)
+2. Move it to your themes folder:
+   - **Windows:** `%appdata%\Vencord\themes\`
+   - **macOS:** `~/Library/Application Support/Vencord/themes/`
+   - **Linux:** `~/.config/Vencord/themes/`
+3. Open Discord → **Settings → Vencord → Themes**
+4. Enable **TheHolyOneZ-Dream**
+
+### Online / Web (Vencord)
+
+No download needed — paste this directly into **Settings → Vencord → Themes → Online Themes**:
+
+```
+https://github.com/TheHolyOneZ/TheHolyOneZ-Dream/blob/main/TheHolyOneZ-Dream.theme.css
+```
 
 ---
 
