@@ -148,7 +148,22 @@ Deep navy backgrounds. JetBrains Mono everywhere. A barely-visible cyan mesh gri
 
 ## Customization
 
-Open the theme file and edit the variables at the top of `:root` to make it yours:
+### Toggle the background effect
+
+Open `TheHolyOneZ-Dream.theme.css` in any text editor and find the top of `:root`:
+
+```css
+--cx-bg-effect: 1; /* ← change to 0 to disable */
+```
+
+| Value | Result |
+|---|---|
+| `1` | Circuit trace animation **on** |
+| `0` | Circuit trace animation **off** |
+
+Save the file, then press **Ctrl+R** in Discord to reload.
+
+### Other variables
 
 ```css
 :root {
