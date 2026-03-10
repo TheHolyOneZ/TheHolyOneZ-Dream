@@ -1,6 +1,8 @@
 # TheHolyOneZ-Dream
 
-> *A VSCodium-soul Discord theme. Deep navy, cyan mesh, drifting aurora. Chill. Terminal. Home.*
+> *A VSCodium-soul Discord theme. Deep navy, drifting aurora, VSCode teal. Smooth. Monospace. Yours. Circuit traces optional.*
+
+![Version](https://img.shields.io/badge/version-1.0.0-4ec9b0?style=flat-square) ![License](https://img.shields.io/badge/license-MIT-5294e2?style=flat-square) ![BetterDiscord](https://img.shields.io/badge/BetterDiscord-compatible-4ec9b0?style=flat-square) ![Vencord](https://img.shields.io/badge/Vencord-compatible-5294e2?style=flat-square)
 
 ---
 
@@ -98,19 +100,22 @@
 Not a hacker theme. Not neon green on black.  
 This is the feeling of settling into VSCodium at midnight — familiar, focused, yours.
 
-Deep navy backgrounds. JetBrains Mono everywhere. A barely-visible cyan mesh grid underneath everything. Two aurora blobs drifting imperceptibly in the background. Every interaction has a smooth, deliberate transition.
+Deep navy backgrounds. JetBrains Mono everywhere. Two soft aurora blobs drift constantly behind the UI — a blue one top-left, a teal one bottom-right — giving the whole thing a quiet, ambient glow. Every interaction has a smooth, deliberate transition.
+
+A barely-visible cyan mesh grid and animated PCB circuit traces are available as an optional overlay. Toggle them with one variable.
 
 ---
 
 ## Features
 
-- **JetBrains Mono** — monospace font across the entire UI
+- **JetBrains Mono** — monospace font across the entire UI, with Cascadia Code and Fira Code as fallbacks
 - **Circuit trace effect** — PCB-style right-angle paths with racing glow streaks and endpoint flashes (toggleable)
-- **Drifting aurora** — two slow-moving radial blobs (blue + teal) in the base background
+- **Drifting aurora** — three slow-moving radial blobs in the base background for subtle ambient depth
 - **Full brand recolor** — Discord's blurple replaced with `#4ec9b0` (VSCode teal) throughout
 - **Smooth micro-animations** — channels, server icons, buttons, reactions, badges, switches
 - **Zero lag** — no `backdrop-filter` on structural panels, only Discord CSS variables for backgrounds
-- **Dark & precise** — carefully tuned neutral scale, muted timestamps, uppercase category labels
+- **Dark & precise** — carefully tuned 6-step neutral scale, muted timestamps, uppercase category labels
+- **Fully customizable** — all colors, fonts, and effects controlled by clean CSS variables at the top of the file
 
 ---
 
@@ -156,6 +161,7 @@ https://raw.githubusercontent.com/TheHolyOneZ/TheHolyOneZ-Dream/main/TheHolyOneZ
 | Cyan accent | `#4ec9b0` | ![](https://placehold.co/12x12/4ec9b0/4ec9b0) |
 | Blue secondary | `#5294e2` | ![](https://placehold.co/12x12/5294e2/5294e2) |
 | Sky (links) | `#9cdcfe` | ![](https://placehold.co/12x12/9cdcfe/9cdcfe) |
+| Purple (streams) | `#c792ea` | ![](https://placehold.co/12x12/c792ea/c792ea) |
 | Text normal | `#a8b2c8` | ![](https://placehold.co/12x12/a8b2c8/a8b2c8) |
 | Text muted | `#5d6a86` | ![](https://placehold.co/12x12/5d6a86/5d6a86) |
 | Online | `#4ec994` | ![](https://placehold.co/12x12/4ec994/4ec994) |
@@ -171,13 +177,15 @@ https://raw.githubusercontent.com/TheHolyOneZ/TheHolyOneZ-Dream/main/TheHolyOneZ
 Open `TheHolyOneZ-Dream.theme.css` in any text editor and find the top of `:root`:
 
 ```css
---cx-bg-effect: 1; /* ← change to 0 to disable */
+--cx-bg-effect: 0; /* ← change to 1 to enable */
 ```
 
 | Value | Result |
 |---|---|
 | `1` | Circuit trace animation **on** |
-| `0` | Circuit trace animation **off** |
+| `0` | Circuit trace animation **off** (default) |
+
+> ⚠️ The circuit trace effect may cause performance issues on lower-end machines. It's off by default for this reason.
 
 Save the file, then press **Ctrl+R** in Discord to reload.
 
@@ -197,6 +205,7 @@ Save the file, then press **Ctrl+R** in Discord to reload.
 ## Compatibility
 
 - ✅ BetterDiscord (stable)
+- ✅ Vencord (stable)
 - ✅ Discord dark mode
 - ⚠️ Discord light mode (usable, not optimized)
 
